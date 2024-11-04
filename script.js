@@ -101,7 +101,7 @@ const deleteUser = async (id) => {
   }
 };
 
-
+console.log("ela");
 
 const editUser = (id) => {
   fetch(`${url}/${id}`)
